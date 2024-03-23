@@ -1,0 +1,85 @@
+/* Reset default margin and padding */
+* {
+    margin: 2px;
+    padding: 5px;
+}
+/* Header styles */
+.header {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg?_gl=1*xmcc3y*_ga*MTE3ODA1MTEwOC4xNzA1Mjg1NzI1*_ga_3LRZM6TM9L*MTcwODMxMDQyNC4zMC4xLjE3MDgzMTA0MzQuNTAuMC4w.jpg');
+    background-size: cover; /* This will cover the entire h1 element */
+    text-align: center;
+    padding: 20px;
+}
+
+.header{
+    background-color: #e0cda7;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    font-size: 120px;
+    font-weight: bold;
+}
+/* Section styles */
+.section {
+    border-top: 2px solid red;
+    padding: 20px;
+}
+.brushes {
+    background-color: #ecd9c6;
+}
+.frames {
+    background-color: #d8ebd8;
+}
+.paint {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: #c9daf8;
+}
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+p {
+    font-size: 16px;
+}
+p span {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+}
+.frames{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+.artframes{
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+
+}
+p .artframes{
+    color: black;
+}
+p span .frame{
+    font-family: Helvetica;
+   font-weight: bold;
+   color: blue;
+
+}
+p .paint {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+.Cleanpaint{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
